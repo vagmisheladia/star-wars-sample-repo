@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.search-container {
+  margin-bottom: 1rem;
+}
+
+.search-container input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.search-container button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #ff9900;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.sort-container {
+  margin-bottom: 1rem;
+}
+
+.sort-container label {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.sort-container select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.filter-container {
+  margin-bottom: 1rem;
+}
+
+.filter-container label {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.characters-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-card {
+  margin: 1rem;
+  padding: 1rem;
+  border: 0.25rem solid #ff9900;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.25);
+  width: 20rem;
+}
+
+.character-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.character-card p {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .characters-container {
+    flex-direction: column;
+  }
+
+  .character-card {
+    width: 100%;
+  }
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  margin: 10px;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
